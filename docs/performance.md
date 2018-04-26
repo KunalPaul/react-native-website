@@ -41,6 +41,7 @@ When running a bundled app, these statements can cause a big bottleneck in the J
 
 ```javascripton
 {
+  "presets": ["react-native"],
   "env": {
     "production": {
       "plugins": ["transform-remove-console"]
